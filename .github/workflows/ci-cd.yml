@@ -33,8 +33,5 @@ jobs:
       name: staging
 
     steps:
-      - name: Download build artifact
-        run: echo "Download artifact"
-
       - name: Deploy to Staging
         run: echo "Deploying to staging..."
